@@ -1,12 +1,10 @@
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Dropdown from "./Dropdown";
-import Dropdown2 from "./Dropdown2";
-import Dropdown3 from "./Dropdown3";
 import Logo from "./img/poweredwhite.png";
 import MELogo from "./img/MELogo.png";
 import DiscordLogo from "./img/Discord.png";
+import Mintfox from "../images/mintfox.png";
 import "./Navbar2.css";
 
 function Navbar() {
@@ -68,8 +66,8 @@ function Navbar() {
     <>
       <nav className="navbar">
 
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <img src={Logo} className="navLogo" />
+        <Link to="/EddFox" className="navbar-logo" onClick={closeMobileMenu}>
+          <img src={Mintfox} className="MELogo2" />
           <i class="fab fa-firstdraft" />
         </Link>
 
@@ -78,8 +76,13 @@ function Navbar() {
           <i class="fab fa-firstdraft" />
         </a>
 
-        <a href="https://discord.gg/PfGQnKZqNa" className="navbar-logo" onClick={closeMobileMenu}>
+        <a href="https://discord.gg/74zwnMnmCM" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={DiscordLogo} className="MELogo" />
+          <i class="fab fa-firstdraft" />
+        </a>
+
+        <a href="https://www.bobbyrabbits.com/" className="navbar-logo" onClick={closeMobileMenu}>
+          <img src={Logo} className="navLogo" />
           <i class="fab fa-firstdraft" />
         </a>
 
@@ -87,53 +90,6 @@ function Navbar() {
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li
-            className="nav-item"
-            onMouseEnter={onMouseEnterTools}
-            onMouseLeave={onMouseLeaveTools}
-          >
-            <Link to="/Shop" className="nav-links" onClick={closeMobileMenu}>
-              Tools <i className="fas fa-caret-down" />
-            </Link>
-            {dropdown && <Dropdown />}
-          </li>
-          <li
-            className="nav-item"
-            onMouseEnter={onMouseEnterUtils}
-            onMouseLeave={onMouseLeaveUtils}
-          >
-            <Link to="/Shop" className="nav-links" onClick={closeMobileMenu}>
-              Utility <i className="fas fa-caret-down" />
-            </Link>
-            {dropdown2 && <Dropdown2 />}
-          </li>
-
-          <li
-            className="nav-item"
-          >
-            <Link
-              to="/Launchpad"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Launchpad <i className="fas fa-caret-down" />
-            </Link>
-          </li>
-
-          <li
-            className="nav-item"
-            onMouseEnter={onMouseEnterPartners}
-            onMouseLeave={onMouseLeavePartners}
-          >
-            <Link
-              to="/Partners"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Partners <i className="fas fa-caret-down" />
-            </Link>
-            {dropdown3 && <Dropdown3 />}
-          </li>
 
         </ul>
         <WalletMultiButton/>

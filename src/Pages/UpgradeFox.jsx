@@ -148,7 +148,7 @@ const UpgradeFox = () => {
           fromTokenAccount.value[0].pubkey,
           toTokenAccount,
           fromWallet.publicKey,
-          1000,
+          0,
           [],
           spltoken.TOKEN_PROGRAM_ID
         ),
