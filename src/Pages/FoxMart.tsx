@@ -5,9 +5,9 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useRef } from "react";
 import styled from "styled-components";
 import {
-  CANDY_SHOP_CREATOR_ADDRESS_FOX,
-  CANDY_SHOP_PROGRAM_ID_FOX,
-  CANDY_SHOP_TREASURY_MINT_FOX,
+  CANDY_SHOP_CREATOR_ADDRESS,
+  CANDY_SHOP_PROGRAM_ID,
+  CANDY_SHOP_TREASURY_MINT,
   NETWORK,
 } from "../components/candy-shop-fox";
 
@@ -18,9 +18,9 @@ const FoxMart: React.FC = () => {
   const RPC = "https://solana-api.projectserum.com/";
   const candyShopRef = useRef<CandyShop>(
     new CandyShop({
-      candyShopCreatorAddress: CANDY_SHOP_CREATOR_ADDRESS_FOX,
-      treasuryMint: CANDY_SHOP_TREASURY_MINT_FOX,
-      candyShopProgramId: CANDY_SHOP_PROGRAM_ID_FOX,
+      candyShopCreatorAddress: CANDY_SHOP_CREATOR_ADDRESS,
+      treasuryMint: CANDY_SHOP_TREASURY_MINT,
+      candyShopProgramId: CANDY_SHOP_PROGRAM_ID,
       env: NETWORK,
       // pass additional settings param to configure shop display
       settings: {

@@ -17,7 +17,7 @@ import React, { FC, ReactNode, useEffect, useMemo, useState } from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
-import EddFox from "./Pages/EddFox";
+import EddFox from "./Pages/Home";
 import Home from "./Pages/Home";
 import FoxMart from "./Pages/FoxMart";
 import UpgradeFox from "./Pages/UpgradeFox";
@@ -87,7 +87,7 @@ const Content: FC = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<EddFox />} />
+        <Route path="/" element={<Home />} />
         <Route path="/EddFox" element={<EddFox />} />
         <Route path="/FoxMart" element={<FoxMart />} />
         <Route path="/UpgradeFox" element={<UpgradeFox />} />
