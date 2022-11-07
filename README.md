@@ -94,6 +94,8 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Update the upgradefilter.json file to add your new hashlist so that the Upgrade Tool displays traits for holders to submit for upgrades. I like to use the Magic Eden Hashlist Tool here: https://magiceden.io/mintlist-tool</li>
 </ul>
 
+## Edit Fees Charged For Upgrades
+
 ## Customize Fonts
 <ul>
   <li>The easiest way to customize fonts is to use fonts from https://fonts.google.com/</li>
@@ -145,6 +147,6 @@ Twitter: https://twitter.com/BobbyRabbits
 Website: https://www.bobbyrabbits.com/
 
 ## Hire Bobby Rabbits
-If this turns out to be a way bigger task than you're interested in doing on your own, you can simply hire us to do the work for you! Check out https://www.bobbyrabbits.com/#/Services for our estimated pricing. You can click the link at the top to open a ticket in our Discord, or just reach out via the contact info provided above. 
+If this turns out to be a way bigger task than you're interested in doing on your own, you can simply hire us to do the work for you! Check out https://www.bobbyrabbits.com/#/Services for estimated pricing. You can click the link at the top to open a ticket in our Discord, or just reach out via the contact info provided above. 
 <br></br>
 WAGMI 
