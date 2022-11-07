@@ -125,6 +125,7 @@ Common errors holders run into and how to troubleshoot them:
   <li>The wallet that receives NFTs through the Upgrade Tool must be constantly cleaned to remove empty token accounts once upgraded NFTs have been sent back to holders, otherwise holders may get errors when trying to send NFTs for upgrades. You can use our wallet cleaner tool here: https://www.bobbyrabbits.com/#/Cleaner</li>
 </ul>
 Other notes:
+<br></br>
 <ul>
   <li>Burning the secondary trait NFTs once received through the Upgrade Tool will offset the cost of sending the upgraded primary NFTs back, and ensures rarity as you can limit the amount of that trait that can possibly exist in the collection when you generate the trait collections.</li>
   <li>Don't forget to update the upgradefilter.json hashlist whenever you add new trait NFTs to the Trait Marketplace, otherwise they will not be displayed in the Upgrade Tool.</li>
