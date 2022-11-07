@@ -82,6 +82,15 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>If you havent already done so from earlier, replace staking button link with the URL provided by Cardinal Labs (it will be https://stake.cardinal.so/YOURPOOLID) on line 28 of Home.jsx</li>
 </ul>
 
+## Create Secondary Trait NFTs
+<ul>
+  <li>Git clone hashlips to generate NFTs that represent your upgradable traits: https://github.com/HashLips/hashlips_art_engine</li>
+  <li>Git clone Metaplex Sugar to launch and then self-mint your secondary trait NFTs: https://github.com/metaplex-foundation/sugar</li>
+  <li>Add your secondary trait NFTs to your Candy Shop: https://candy.liqnft.com/shop/collections</li>
+  <li>List your traits for sale at various prices on yout Trait Marketplace</li>
+  <li>Update the upgradefilter.json file to add your new hashlist so that the Upgrade Tool displays traits for holders to submit for upgrades. I like to use the Magic Eden Hashlist Tool here: https://magiceden.io/mintlist-tool</li>
+</ul>
+
 ## Customize Fonts
 <ul>
   <li>The easiest way to customize fonts is to use fonts from https://fonts.google.com/</li>
@@ -92,15 +101,15 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 </ul>
 
 ## Developer Notes
-Common errors holders run into and how to troubleshoot:
+Common errors holders run into and how to troubleshoot them:
 <ul>
-  <li>By far the most common error is that holders attempt to submit NFTs to be upgraded using the Upgrade Tool, but forget to unstake their primary NFT. If a holder is getting an error using the Upgrade Tool, the first question you should ask is always "did you unstake"?</li>
+  <li>By far the most common error is that holders attempt to submit NFTs to be upgraded using the Upgrade Tool, but forget to unstake their primary NFT. If a holder is getting an error using the Upgrade Tool, the first question you should always ask is "did you unstake?"</li>
   <li>The wallet that receives NFTs through the Upgrade Tool must be constantly cleaned to remove empty token accounts once upgraded NFTs have been sent back to holders, otherwise holders may get errors when trying to send NFTs for upgrades. You can use our wallet cleaner tool here: https://www.bobbyrabbits.com/#/Cleaner</li>
 </ul>
 Other notes:
 <ul>
   <li>Burning the secondary trait NFTs once received through the Upgrade Tool will offset the cost of sending the upgraded primary NFTs back, and ensures rarity as you can limit the amount of that trait that can possibly exist in the collection when you generate the trait collections.</li>
-  <li>Don't forget to update the upgradefilter.json hashlist whenever you add new trait NFTs to the Trait Marketplace, otherwise they will not be displayed in the Upgrade Tool,</li>
+  <li>Don't forget to update the upgradefilter.json hashlist whenever you add new trait NFTs to the Trait Marketplace, otherwise they will not be displayed in the Upgrade Tool.</li>
 </ul>
 
 ## Contact Us Below For Help!
@@ -109,3 +118,8 @@ Discord: https://discord.gg/f6Bk4wbYJj
 Twitter: https://twitter.com/BobbyRabbits
 <br></br>
 Website: https://www.bobbyrabbits.com/
+
+## Hire Bobby Rabbits
+If this turns out to be a way bigger task than you're interested in doing on your own, you can simply hire us to do the work for you! Check out https://www.bobbyrabbits.com/#/Services for our estimated pricing. You can click the link at the top to open a ticket in our Discord, or just reach out via the contact info provided above. 
+<br></br>
+WAGMI 
