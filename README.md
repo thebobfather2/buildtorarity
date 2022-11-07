@@ -1,9 +1,10 @@
 # Edd Fox Build To Rarity Ecosystem
-## Powered by Bobby Rabbits
+<h1>Powered by Bobby Rabbits</h1>
 
 ## About Build Into Rarity
-<h2>Build Into Rarity is a concept pioneered by Edd Fox using techniques first deployed by Corn Pop of Bobby Rabbits. The Bobfather apprecenticed under Corn Pop during the development of https://www.bobbyrabbits.com/ and applied the technology to create a methodology that can be branded, customized, and expanded upon to assist projects in need of ancillary revenue.<h2>
-<p>The general concept of Built Into Rarity consists of a number of parts working together as a complete process and ecosystem:</p>
+Build Into Rarity is a concept pioneered by Edd Fox using techniques first deployed by Corn Pop of Bobby Rabbits. The Bobfather apprecenticed under Corn Pop during the development of https://www.bobbyrabbits.com/ and applied the technology to create a methodology that can be branded, customized, and expanded upon to assist projects in need of ancillary revenue.
+<br></br>
+The general concept of Built Into Rarity consists of a number of parts working together as a complete process and ecosystem:
 <ul>
   <li>Creating a fungible token to be earned through staking</li>
   <li>Configuring a stake pool to reward holders proportionally to their commitments and value to the project</li>
