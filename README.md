@@ -2,9 +2,9 @@
 <h1>Powered by Bobby Rabbits</h1>
 
 ## About Build Into Rarity
-Build Into Rarity is a concept pioneered by Edd Fox using techniques first deployed by Corn Pop of Bobby Rabbits. The Bobfather apprecenticed under Corn Pop during the development of https://www.bobbyrabbits.com/ and applied the technology to create a methodology that can be branded, customized, and expanded upon to assist projects in need of ancillary revenue.
+Build Into Rarity is a concept pioneered by Edd Fox using techniques first deployed by Corn Pop of Bobby Rabbits. The Bobfather apprenticed under Corn Pop during the development of https://www.bobbyrabbits.com/ and applied the technology used early on in Bobby Rabbits to create a methodology that can be branded, customized, and expanded upon to assist projects in need of ancillary revenue.
 <br></br>
-The general concept of Built Into Rarity consists of a number of parts working together as a complete process and ecosystem:
+The general concept of Build Into Rarity consists of a number of parts working together as a complete process and ecosystem:
 <ul>
   <li>Creating a fungible token to be earned through staking</li>
   <li>Configuring a stake pool to reward holders proportionally to their commitments and value to the project</li>
@@ -13,9 +13,9 @@ The general concept of Built Into Rarity consists of a number of parts working t
 </ul>
 
 ## NOTE BEFORE STARTING:
-Please ensure your NFT collection uses mutable data (we will be using metaboss to update mutabale data for this to work properly) - also you must have the private key to the update authority wallet.
+Please ensure that your NFT collection uses mutable data (we will be using metaboss to update mutabale data for this to work properly) - also you must have the private key to the update authority wallet.
 <br></br>
-Another thing to note: Candy Shop seems to have issues with NFTs that have more than 3 creator addresses. As one creator address is added, please DO NOT use more than 2 creator addresses under the royalties section when creating secondary trait NFTs in hashlips.
+Another thing to note: Candy Shop seems to have issues with NFTs that have more than 3 creator addresses. Because one creator address is added bu the candy machine, please DO NOT use more than 2 creator addresses under the royalties section when creating secondary trait NFTs in hashlips.
 
 ## Installation
 <ul>
@@ -37,12 +37,18 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Go to https://app.strataprotocol.com/launchpad and click "Create New Token, and then "Next" in the bottom right.</li>
   <li>Click "Self Managed" and then "Next" in the bottom right.</li>
   <li>Connect your wallet and create your rewards tokens.</li>
-  <li>PLEASE NOTE: Please ensure you use 1 or more Mint Decimals - 0 decimal fungible tokens will show up as NFTs in your wallet. 1 or more decimals will show along with your Solana as a currency, which is much more user-friendly when being used as a reward currency and for shopping in your traits marketplace.</li>
+  <li>PLEASE NOTE: Please use 1 or more Mint Decimals when you create these! 0 decimal fungible tokens will show up as NFTs in your wallet. 1 or more decimal tokens will show along with your Solana as a currency, which is much more user-friendly when being used as a reward currency and for shopping in your traits marketplace.</li>
 </ul>
 
 ## Configure Your Stake Pool
-
-## Replace the URL in Home.jsx with the URL provided by Cardinal Labs
+<ul>
+  <li>Go to https://stake.cardinal.so/ and connect your wallet</li>
+  <li>Click "Create your pool +"</li>
+  <li>Use the information for your primary NFT's collection or creator address to tell it which NFTs can be staked</li>
+  <li>Under REWARD DISTRIBUTION choose Transfer and provide your fungible token's mint address, and fund the stake pool with plenty of tokens for your holders to redeem</li>
+  <li>Replace the URL on line 34 in Home.jsx with the URL provided by Cardinal Labs (it will be https://stake.cardinal.so/YOURPOOLID)</li>
+  <li>Change the button decription for staking on line 42 in Home.jsx</li>
+</ul>
 
 ## Set Up Traits Marketplace
 <ul>
@@ -66,4 +72,9 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>You will then use the CSS rules box to replace the font family for the text you want to change (it will look like font-family: 'Ubuntu', sans-serif;). More on this later...</li>
 </ul>
 
-## Set Up Your Home.jsx
+## Contact Us Below For Help!
+Discord: https://discord.gg/f6Bk4wbYJj
+<br></br>
+Twitter: https://twitter.com/BobbyRabbits
+<br></br>
+Website: https://www.bobbyrabbits.com/
