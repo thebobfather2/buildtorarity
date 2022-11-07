@@ -1,5 +1,5 @@
 # Edd Fox Build To Rarity Ecosystem
-<h1>Powered by Bobby Rabbits</h1>
+<h2>Powered by Bobby Rabbits</h2>
 
 ## About Build Into Rarity
 Build Into Rarity is a concept pioneered by Edd Fox using techniques first deployed by Corn Pop of Bobby Rabbits. The Bobfather apprenticed under Corn Pop during the development of https://www.bobbyrabbits.com/ and applied the technology used early on in Bobby Rabbits to create a methodology that can be branded, customized, and expanded upon to assist projects in need of ancillary revenue.
