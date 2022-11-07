@@ -117,6 +117,7 @@ Notes:
 <ul>
   <li>I've found it helpful to create a spreadsheet to track arweave links in case a holder wants their original NFT art, or for other issues that would require easy access to alternate NFT Art such as the WereFox capabilities within Edd Fox</li>
 </ul>
+
 ## Developer Notes
 Common errors holders run into and how to troubleshoot them:
 <ul>
