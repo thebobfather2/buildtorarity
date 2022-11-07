@@ -15,8 +15,8 @@ import {
 import { clusterApiUrl, Connection } from "@solana/web3.js";
 import React, { FC, ReactNode, useEffect, useMemo, useState } from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Navbar2 from "./components/Navbar2";
+import Navbar from "./components/MobileNav";
+import Navbar2 from "./components/DesktopNav";
 import Home from "./Pages/Home";
 import FoxMart from "./Pages/FoxMart";
 import UpgradeFox from "./Pages/UpgradeFox";

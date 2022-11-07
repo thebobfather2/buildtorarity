@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import Logo from "./img/poweredwhite.png";
 import MELogo from "./img/MELogo.png";
 import DiscordLogo from "./img/Discord.png";
-import Mintfox from "../images/mintfox.png";
-import "./Navbar2.css";
+import projectlogo from "../images/mintfox.png";
+import "./DesktopNav.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -66,21 +66,22 @@ function Navbar() {
     <>
       <nav className="navbar">
 
-        <Link to="/EddFox" className="navbar-logo" onClick={closeMobileMenu}>
-          <img src={Mintfox} className="MELogo2" />
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <img src={projectlogo} className="MELogo2" />
           <i class="fab fa-firstdraft" />
         </Link>
-
+{/* Update with URL from your collection on Magic Eden below */} 
         <a href="https://magiceden.io/creators/bobbyrabbits/" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={MELogo} className="MELogo" />
           <i class="fab fa-firstdraft" />
         </a>
-
+{/* Update with your Discord invite link below - ensure to create a link
+that never expires! */}
         <a href="https://discord.gg/74zwnMnmCM" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={DiscordLogo} className="MELogo" />
           <i class="fab fa-firstdraft" />
         </a>
-
+{/* Update with URL from your website below */} 
         <a href="https://www.bobbyrabbits.com/" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={Logo} className="navLogo" />
           <i class="fab fa-firstdraft" />

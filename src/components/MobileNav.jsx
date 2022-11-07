@@ -10,7 +10,7 @@ import br from "./img/poweredwhite.png";
 import Logo from "./img/poweredwhite.png";
 import MELogo from "./img/MELogo.png";
 import DiscordLogo from "./img/Discord.png";
-import "./Navbar.css";
+import "./MobileNav.css";
 
 const Navbar = () => {
   let walletAddress = "";
@@ -41,27 +41,25 @@ const Navbar = () => {
             <img className="navlogo" src={br} alt="logo" />
           </Link>
           <ul className="list"close  style={{marginTop: "30px"}}>
-            <br></br>
- 
-            <br></br>
-
+        <br></br>
+        <br></br>
+{/* Update with URL from your collection on Magic Eden below */} 
         <a href="https://magiceden.io/creators/bobbyrabbits/" style={{marginTop: "-10px"}} className="navbar-logo2" onClick={toggleNav}>
           <img src={MELogo} className="MELogo" />
           <i class="fab fa-firstdraft" />
         </a>
-
+{/* Update with your Discord invite link below - ensure to create a link
+that never expires! */}
         <a href="https://discord.gg/PfGQnKZqNa" className="navbar-logo2" onClick={toggleNav}>
           <img src={DiscordLogo} className="MELogo" />
           <i class="fab fa-firstdraft" />
         </a>
-
-            <br></br>
-
-            <Link to="/" className="navbar-logo2" onClick={toggleNav}>
+        <br></br>
+{/* Update with URL from your website below */} 
+        <a href="https://www.bobbyrabbits.com/" className="navbar-logo2" onClick={toggleNav}>
           <img src={Logo} className="navLogo2" />
           <i class="fab fa-firstdraft" />
-        </Link>
-
+        </a>
         <br></br>
 
             <WalletModalProvider>
