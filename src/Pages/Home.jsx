@@ -14,7 +14,7 @@ const Home = () => {
       </div>
 
       <div className="EddBody">
-
+{/* Update with URL from Magic Eden below */} 
         <a href="https://magiceden.io/marketplace/eddfox">
           <img
             className="ProjectLogo"
@@ -37,7 +37,7 @@ const Home = () => {
           </h3>
         </a>
 
-        <Link to="/FoxMart">
+        <Link to="/TraitMarketplace">
           <img
             className="Stakefox"
             src={Potion}
@@ -47,7 +47,7 @@ const Home = () => {
           <h3 style={{ marginBottom: "40px", color: "white", textShadow: "2px 2px #000000"}}>FoxMart</h3>
         </Link>
 
-        <Link to="/UpgradeFox">
+        <Link to="/Upgrade">
           <img
             className="Stakefox"
             src={upgrade}

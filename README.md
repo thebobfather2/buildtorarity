@@ -32,13 +32,6 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Edit your site's title on line 24 of index.html.</li>
 </ul>
 
-## Replace Links
-<ul>
-  <li>Replace our website link with your own website link on line 59 of MobileNav.jsx and on line 69 of DesktopNav.jsx in src >> components. Ensure the invite link you generate is set to never expire!</li>
-  <li>Replace our link with your own Magic Eden collection link on line 47 of MobileNav.jsx and on line 74 of DesktopNav.jsx in src >> components.</li>
-  <li>Replace our link with your own Discord invite link on line 53 of MobileNav.jsx and on line 80 of DesktopNav.jsx in src>>components. Ensure the invite link you generate is set to never expire!</li>
-</ul>
-
 ## Replace Images and Logos
 <ul>
   <li>The background image of the main page is located in line 8 of Home.css, or you can simply replace the "backgroundimg.png" file in src >> images.</li>
@@ -74,6 +67,19 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Replace the REACT_APP_CANDY_SHOP_TREASURY_MINT in line 10 of .env</li>
   <li>Replace the REACT_APP_CANDY_SHOP_PROGRAM_ID in line 11 of .env</li>
   <li>IF YOU WOULD LIKE TO TEST FIRST using devnet - please replace the RPCs with https://api.devnet.solana.com</li>
+</ul>
+
+## Replace Links
+<h3>Navigation Links</h3>
+<ul>
+  <li>Replace our website link with your own website link on line 59 of MobileNav.jsx and on line 69 of DesktopNav.jsx in src >> components. Ensure the invite link you generate is set to never expire!</li>
+  <li>Replace our link with your own Magic Eden collection link on line 47 of MobileNav.jsx and on line 74 of DesktopNav.jsx in src >> components.</li>
+  <li>Replace our link with your own Discord invite link on line 53 of MobileNav.jsx and on line 80 of DesktopNav.jsx in src>>components. Ensure the invite link you generate is set to never expire!</li>
+</ul>
+<h3>Homepage Button Links</h3>
+<ul>
+  <li>Replace link with your own Magic Eden link for the buy primary NFT button on line 18 of Home.jsx</li>
+  <li>If you havent already done so from earlier, replace staking button link with the URL provided by Cardinal Labs (it will be https://stake.cardinal.so/YOURPOOLID) on line 28 of Home.jsx</li>
 </ul>
 
 ## Customize Fonts
