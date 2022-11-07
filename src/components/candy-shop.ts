@@ -21,7 +21,7 @@ const candyShop = new CandyShop({
   env: NETWORK,
   settings: {
     currencyDecimals: Number(0),
-    currencySymbol: "$CAROT",
+    currencySymbol: "$FIELD",
     mainnetConnectionUrl: RPC
   },
 });

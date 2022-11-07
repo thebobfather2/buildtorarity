@@ -9,9 +9,9 @@ import {
   CANDY_SHOP_PROGRAM_ID,
   CANDY_SHOP_TREASURY_MINT,
   NETWORK,
-} from "../components/candy-shop-fox";
+} from "../components/candy-shop";
 
-import "./CarotMarket.css";
+import "./FoxMart.css";
 
 const FoxMart: React.FC = () => {
   const wallet = useAnchorWallet();
