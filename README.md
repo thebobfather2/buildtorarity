@@ -9,7 +9,7 @@ The general concept of Build Into Rarity consists of a number of parts working t
   <li>Creating a fungible token to be earned through staking</li>
   <li>Configuring a stake pool to reward holders proportionally to their commitments and value to the project</li>
   <li>Creating secondary NFTs to represent upgradable traits and a custom marketplace for these NFTs to be purchased with rewards tokens</li>
-  <li>Creating a tool that allows holders to submit primary NFTs and secondary trait NFTs for upgrades that will improve the desirability and rarity ranking of the primary NFT, therefor increasing its value. We have built two versions of this tool - one does not require the holders to send the primary NFT as we can update it simply using the mint address, but for this particular package we will use the version that sends both the primary and secondary trait NFT together for simplicity's sake.</li>
+  <li>Creating a tool that allows holders to submit primary NFTs and secondary trait NFTs for upgrades that will improve the desirability and rarity ranking of the primary NFT, therefor increasing its value. We have built two versions of this tool - one does not require the holders to send the primary NFT as we can update it simply using the mint address, but for this particular package we will use the version that sends both the primary and secondary trait NFTs together for simplicity's sake.</li>
 </ul>
 
 ## NOTE BEFORE STARTING:
@@ -100,6 +100,23 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>EXAMPLE: To change the font of the title on the home page, go to Home.css and replace the font-family on line 24.</li>
 </ul>
 
+## Upgrading Traits
+<ul>
+  <li>Install Metaboss: https://metaboss.rs/installation.html</li>
+  <li>Look up the submitted primary NFT on https://solscan.io/ to obtain the mint address, edition number and view the existing traits</li>
+  <li>Remember to save the current arweave link and add it to your spreadsheet (see Notes below) if you would like to revert back to this version later.
+  <li>Use Hashlips to generate the upgraded NFT (change the config file in hashlips to only create 1, and put only one of each trait in the folder to create desired NFT)</li>
+  <li>edit the .png and .json in the build folder to match the edition number on the existing NFT. Not only do the file names need to match, but there are 4 places inside the .json file where you will need to update this edition number.</li>
+  <li>Use Bobby Rabbits NFT Minter to create new arweave links: https://www.bobbyrabbits.com/#/nftminter</li>
+</ul>
+Commands:
+<ul>
+
+</ul>
+Notes:
+<ul>
+  <li>I've found it helpful to create a spreadsheet to track arweave links in case a holder wants their original NFT art, or for other issues that would require easy access to alternate NFT Art such as the WereFox capabilities within Edd Fox</li>
+</ul>
 ## Developer Notes
 Common errors holders run into and how to troubleshoot them:
 <ul>
