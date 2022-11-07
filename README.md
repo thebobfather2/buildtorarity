@@ -7,7 +7,7 @@ Build Into Rarity is a concept pioneered by Edd Fox using techniques first deplo
 The general concept of Build Into Rarity consists of a number of parts working together as a complete process and ecosystem:
 <ul>
   <li>Creating a fungible token to be earned through staking</li>
-  <li>Configuring a stake pool to reward holders proportionally to their commitments and value to the project</li>
+  <li>Configuring a stake pool to reward holders proportional to their commitments and value to the project</li>
   <li>Creating secondary NFTs to represent upgradable traits and a custom marketplace for these NFTs to be purchased with rewards tokens</li>
   <li>Creating a tool that allows holders to submit primary NFTs and secondary trait NFTs for upgrades that will improve the desirability and rarity ranking of the primary NFT, therefor increasing its value. We have built two versions of this tool - one does not require the holders to send the primary NFT as we can update it simply using the mint address, but for this particular package we will use the version that sends both the primary and secondary trait NFTs together for simplicity's sake.</li>
 </ul>
@@ -15,7 +15,7 @@ The general concept of Build Into Rarity consists of a number of parts working t
 ## NOTE BEFORE STARTING:
 Please ensure that your NFT collection uses mutable data (we will be using metaboss to update mutabale data for this to work properly) - also you must have the private key to the update authority wallet.
 <br></br>
-Another thing to note: Candy Shop seems to have issues with NFTs that have more than 3 creator addresses. Because one creator address is added bu the candy machine, please DO NOT use more than 2 creator addresses under the royalties section when creating secondary trait NFTs in hashlips.
+Another thing to note: Candy Shop seems to have issues with NFTs that have more than 3 creator addresses. Because one creator address is added by the candy machine, please DO NOT use more than 2 creator addresses under the royalties section when creating secondary trait NFTs in hashlips.
 
 ## Installation
 <ul>
