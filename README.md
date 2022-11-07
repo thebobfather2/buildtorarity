@@ -82,7 +82,6 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 </ul>
 
 ## Contact Us Below For Help!
-<br></br>
 Discord: https://discord.gg/f6Bk4wbYJj
 <br></br>
 Twitter: https://twitter.com/BobbyRabbits
