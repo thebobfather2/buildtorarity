@@ -91,6 +91,18 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>EXAMPLE: To change the font of the title on the home page, go to Home.css and replace the font-family on line 24.</li>
 </ul>
 
+## Developer Notes
+Common errors holders run into and how to troubleshoot:
+<ul>
+  <li>By far the most common error is that holders attempt to submit NFTs to be upgraded using the Upgrade Tool, but forget to unstake their primary NFT. If a holder is getting an error using the Upgrade Tool, the first question you should ask is always "did you unstake"?</li>
+  <li>The wallet that receives NFTs through the Upgrade Tool must be constantly cleaned to remove empty token accounts once upgraded NFTs have been sent back to holders, otherwise holders may get errors when trying to send NFTs for upgrades. You can use our wallet cleaner tool here: https://www.bobbyrabbits.com/#/Cleaner</li>
+</ul>
+Other notes:
+<ul>
+  <li>Burning the secondary trait NFTs once received through the Upgrade Tool will offset the cost of sending the upgraded primary NFTs back, and ensures rarity as you can limit the amount of that trait that can possibly exist in the collection when you generate the trait collections.</li>
+  <li>Don't forget to update the upgradefilter.json hashlist whenever you add new trait NFTs to the Trait Marketplace, otherwise they will not be displayed in the Upgrade Tool,</li>
+</ul>
+
 ## Contact Us Below For Help!
 Discord: https://discord.gg/f6Bk4wbYJj
 <br></br>
