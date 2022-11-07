@@ -97,7 +97,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 ## Customize Fonts
 <ul>
   <li>The easiest way to customize fonts is to use fonts from https://fonts.google.com/</li>
-  <li>Choose a font you like, then scroll down and select the exact stlye you want.</li>
+  <li>Choose a font you like, then scroll down and select the exact style you want.</li>
   <li>View the "selected families", then copy the <'link'> and paste in into the index.html under line 15.</li>
   <li>You will then use the CSS rules box to replace the font family for the text you want to change (it will look like font-family: 'Ubuntu', sans-serif;). More on this later...</li>
   <li>EXAMPLE: To change the font of the title on the home page, go to Home.css and replace the font-family on line 24.</li>
