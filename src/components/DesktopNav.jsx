@@ -65,11 +65,11 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+{/* Update with URL from your website below */} 
+        <a href="https://www.bobbyrabbits.com/" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={projectlogo} className="MELogo2" />
           <i class="fab fa-firstdraft" />
-        </Link>
+        </a>
 {/* Update with URL from your collection on Magic Eden below */} 
         <a href="https://magiceden.io/creators/bobbyrabbits/" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={MELogo} className="MELogo" />
@@ -81,7 +81,7 @@ that never expires! */}
           <img src={DiscordLogo} className="MELogo" />
           <i class="fab fa-firstdraft" />
         </a>
-{/* Update with URL from your website below */} 
+
         <a href="https://www.bobbyrabbits.com/" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={Logo} className="navLogo" />
           <i class="fab fa-firstdraft" />

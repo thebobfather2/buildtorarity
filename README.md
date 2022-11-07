@@ -34,9 +34,9 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 
 ## Replace Links
 <ul>
-  <li>Replace our link with your own Magic Eden collection link on line 47 of MobileNav.jsx and on line 74 of DesktopNav.jsx in src>>components.</li>
+  <li>Replace our website link with your own website link on line 59 of MobileNav.jsx and on line 69 of DesktopNav.jsx in src >> components. Ensure the invite link you generate is set to never expire!</li>
+  <li>Replace our link with your own Magic Eden collection link on line 47 of MobileNav.jsx and on line 74 of DesktopNav.jsx in src >> components.</li>
   <li>Replace our link with your own Discord invite link on line 53 of MobileNav.jsx and on line 80 of DesktopNav.jsx in src>>components. Ensure the invite link you generate is set to never expire!</li>
-  <li>Replace our website link with your own website link on line 59 of MobileNav.jsx and on line 85 of DesktopNav.jsx in src>>components. Ensure the invite link you generate is set to never expire!</li>
 </ul>
 
 ## Replace Images and Logos
