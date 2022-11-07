@@ -117,11 +117,11 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 </ul>
 Commands:
 <ul>
-
+  <li>metaboss update uri -a primary_NFT_mint_address_here -k keypair_file.json -u https://arweave.net/thisisyourmetadataURI</li>
 </ul>
 Notes:
 <ul>
-  <li>I've found it helpful to create a spreadsheet to track arweave links in case a holder wants their original NFT art, or for other issues that would require easy access to alternate NFT Art such as the WereFox capabilities within Edd Fox</li>
+  <li>I've found it helpful to create a spreadsheet to track URIs in case a holder wants their original NFT art, or for other issues that would require easy access to alternate NFT art such as the WereFox capabilities within Edd Fox.</li>
 </ul>
 
 ## Developer Notes
