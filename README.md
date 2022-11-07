@@ -105,12 +105,15 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 
 ## Upgrading Traits
 <ul>
-  <li>Install Metaboss: https://metaboss.rs/installation.html</li>
   <li>Look up the submitted primary NFT on https://solscan.io/ to obtain the mint address, edition number and view the existing traits</li>
-  <li>Remember to save the current arweave link and add it to your spreadsheet (see Notes below) if you would like to revert back to this version later.
+  <li>Remember to save the current metadata URI link and add it to your spreadsheet (see Notes below) if you would like to revert back to this version later.
   <li>Use Hashlips to generate the upgraded NFT (change the config file in hashlips to only create 1, and put only one of each trait in the folder to create desired NFT)</li>
-  <li>edit the .png and .json in the build folder to match the edition number on the existing NFT. Not only do the file names need to match, but there are 4 places inside the .json file where you will need to update this edition number.</li>
-  <li>Use Bobby Rabbits NFT Minter to create new arweave links: https://www.bobbyrabbits.com/#/nftminter</li>
+  <li>Edit the .png and .json in the build folder to match the edition number on the existing NFT. Not only do the file names need to match, but there are 4 places inside the .json file where you will need to update this edition number.</li>
+  <li>Use Bobby Rabbits NFT Minter to create new URI links: https://www.bobbyrabbits.com/#/nftminter - please note you need to upload them image, then the .json, then click the button to GET IMAGE URI, then once that completes, GET METADATA URI, in that order. The metadata URI is what you will use in the command below to update the primary NFT. </li>
+  <li>Install Metaboss: https://metaboss.rs/installation.html</li>
+  <li>Create a .json file in a SEPARATE folder from your site. The name of the .json will be your wallet's public address .json, and the content of the .json will be your private key, similar to how keypair files are saved when you use Metaplex (IMPORTANT NOTE: PROTECT THIS CAREFULLY AS IT CONTAINS YOUR PRIVATE KEY - DO NOT UPLOAD WITH YOUR SITE!!!</li>
+  <li>Within the folder containing your keypair file, run the command "metaboss update uri -a primary_NFT_mint_address_here -k keypair_file.json -u https://arweave.net/thisisyourmetadataURI" using the mint address after "-a", your keypair file name after "-k", and the metadata URI from the NFT Minter after "-u". This will update the token.</li>
+  <li>Burn the secondary trait NFT, send the primary NFT back to the holder (double check the address it came from on Solscan.io, and/or confirm the address with the holder in your Discord), then use the wallet cleaner to remove the empty token accounts: https://www.bobbyrabbits.com/#/Cleaner</li>
 </ul>
 Commands:
 <ul>
