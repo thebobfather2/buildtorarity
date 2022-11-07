@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import eddtitle from "../images/eddtitle.png";
-import Mintfox from "../images/mintfox.png";
+import ProjectLogo from "../images/ProjectLogo.png";
 import Potion from "../images/potion.png";
-import feed from "../images/feed.png";
+import upgrade from "../images/upgradeButton.png";
 import Stakefox from "../images/stakefox.png";
 
 import "./Home.css";
@@ -11,25 +10,20 @@ const Home = () => {
   return (
     <div className="EddMainContainer">
       <div className="EddTitleContainer">
-        <img
-          className="eddtitle"
-          src={eddtitle}
-          alt="eddtitle"
-          style={{ maxWidth: "90%" }}
-        ></img>
+        <h1 className="MainTitle">Edd Fox</h1>
       </div>
 
       <div className="EddBody">
 
         <a href="https://magiceden.io/marketplace/eddfox">
           <img
-            className="Mintfox"
-            src={Mintfox}
-            alt="Mintfox"
+            className="ProjectLogo"
+            src={ProjectLogo}
+            alt="Project Logo"
           ></img>
           <h3 style={{ marginBottom: "40px", color: "white", textShadow: "2px 2px #000000"}}>Buy A Fox</h3>
         </a>
-        
+
 {/* Update with URL from Cardinal Labs Staking below */} 
         <a href="https://staking.bobbyrabbits.com/eddfox">
           <img
@@ -56,7 +50,7 @@ const Home = () => {
         <Link to="/UpgradeFox">
           <img
             className="Stakefox"
-            src={feed}
+            src={upgrade}
             alt="Upgrade"
             style={{ marginTop: "0px"}}
           ></img>

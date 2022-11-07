@@ -40,6 +40,9 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 </ul>
 
 ## Replace Images and Logos
+<ul>
+  <li>The background image of the main page is located in line 8 of Home.css, or you can simply replace the "backgroundimg.png" file in src >> images.</li>
+</ul>
 
 ## Create Your Rewards Tokens
 <ul>
@@ -79,6 +82,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Choose a font you like, then scroll down and select the exact stlye you want.</li>
   <li>View the "selected families", then copy the <'link'> and paste in into the index.html under line 15.</li>
   <li>You will then use the CSS rules box to replace the font family for the text you want to change (it will look like font-family: 'Ubuntu', sans-serif;). More on this later...</li>
+  <li>EXAMPLE: To change the font of the title on the home page, go to Home.css and replace the font-family on line 24.</li>
 </ul>
 
 ## Contact Us Below For Help!

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Logo from "./img/poweredwhite.png";
 import MELogo from "./img/MELogo.png";
 import DiscordLogo from "./img/Discord.png";
-import projectlogo from "../images/mintfox.png";
+import projectlogo from "../images/ProjectLogo.png";
 import "./DesktopNav.css";
 
 function Navbar() {

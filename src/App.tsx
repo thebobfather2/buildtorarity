@@ -18,8 +18,8 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/MobileNav";
 import Navbar2 from "./components/DesktopNav";
 import Home from "./Pages/Home";
-import FoxMart from "./Pages/FoxMart";
-import UpgradeFox from "./Pages/UpgradeFox";
+import TraitMarketplace from "./Pages/TraitMarketplace";
+import Upgrade from "./Pages/Upgrade";
 
 require("./App.css");
 require("@solana/wallet-adapter-react-ui/styles.css");
@@ -87,8 +87,8 @@ const Content: FC = () => {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/FoxMart" element={<FoxMart />} />
-        <Route path="/UpgradeFox" element={<UpgradeFox />} />
+        <Route path="/TraitMarketplace" element={<TraitMarketplace />} />
+        <Route path="/Upgrade" element={<Upgrade />} />
       </Routes>
     </>
   );

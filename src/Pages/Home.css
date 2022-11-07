@@ -5,7 +5,7 @@
   width: 100%;
   text-align: center;
   align-items: center;
-  background-image: url(../images/FoxBG.png);
+  background-image: url(../images/backgroundimg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -18,6 +18,13 @@
   padding: 20px;
   justify-content: center;
   align-items: center;
+}
+
+.MainTitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25vh;
+  color: #ffffff;
+  text-shadow: 10px 10px #000000;
 }
 
 .EddBody {
@@ -80,7 +87,7 @@
   height: 60%;
 }
 
-.Mintfox {
+.ProjectLogo {
   width: 60%;
   height: 60%;
 }
@@ -109,6 +116,10 @@
     align-items: center;
     margin-top: 10px;
     margin-bottom: -10px;
+  }
+
+  .MainTitle {
+    font-size: 8vh;
   }
 
   .EddBody {
@@ -163,7 +174,7 @@
     height: 40%;
   }
 
-  .Mintfox {
+  .ProjectLogo {
     width: 40%;
     height: 40%;
   }
