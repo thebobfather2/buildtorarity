@@ -19,5 +19,5 @@
 <ul>
   <li>The easiest way to customize fonts is to use fonts from https://fonts.google.com/</li>
   <li>Choose a font you like, then scroll down and select the exact stlye you want.</li>
-  <li>View the "selected families", then copy the '<link>' and paste in into the index.html under line 15.</li>
+  <li>View the "selected families", then copy the <'link'> and paste in into the index.html under line 15.</li>
 </ul>
