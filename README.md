@@ -52,7 +52,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Use the information for your primary NFT's collection or creator address to tell it which NFTs can be staked</li>
   <li>Under REWARD DISTRIBUTION choose Transfer and provide your fungible token's mint address, and fund the stake pool with plenty of tokens for your holders to redeem</li>
   <li>Replace the URL on line 34 in Home.jsx with the URL provided by Cardinal Labs (it will be https://stake.cardinal.so/YOURPOOLID)</li>
-  <li>Change the button decription for staking on line 42 in Home.jsx</li>
+  <li>Change the button description for staking on line 42 in Home.jsx</li>
 </ul>
 
 ## Set Up Traits Marketplace
