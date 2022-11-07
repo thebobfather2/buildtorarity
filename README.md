@@ -12,6 +12,9 @@ The general concept of Build Into Rarity consists of a number of parts working t
   <li>Creating a tool that allows holders to submit primary NFTs and secondary trait NFTs for upgrades that will improve the desirability and rarity ranking of the primary NFT, therefor increasing its value. We have built two versions of this tool - one does not require the holders to send the primary NFT as we can update it simply using the mint address, but for this particular package we will use the version that sends both the primary and secondary trait NFTs together for simplicity's sake.</li>
 </ul>
 
+## Example Project:
+https://www.bobbyrabbits.com/#/EddFox
+
 ## NOTE BEFORE STARTING:
 Please ensure that your NFT collection uses mutable data (we will be using metaboss to update mutabale data for this to work properly) - also you must have the private key to the update authority wallet.
 <br></br>
@@ -86,7 +89,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 <ul>
   <li>Git clone hashlips to generate NFTs that represent your upgradable traits: https://github.com/HashLips/hashlips_art_engine</li>
   <li>Git clone Metaplex Sugar to launch and then self-mint your secondary trait NFTs: https://github.com/metaplex-foundation/sugar</li>
-  <li>Add your secondary trait NFTs to your Candy Shop: https://candy.liqnft.com/shop/collections</li>
+  <li>Add your secondary trait NFTs to your Candy Shop by adding an identifier. You only need to add the mint address of one of the NFTs from the batch as an identifier, and it will allow all NFTs from that batch: https://candy.liqnft.com/shop/collections</li>
   <li>List your traits for sale at various prices on yout Trait Marketplace</li>
   <li>Update the upgradefilter.json file to add your new hashlist so that the Upgrade Tool displays traits for holders to submit for upgrades. I like to use the Magic Eden Hashlist Tool here: https://magiceden.io/mintlist-tool</li>
 </ul>
