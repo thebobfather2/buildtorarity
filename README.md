@@ -20,6 +20,9 @@ Please ensure that your NFT collection uses mutable data (we will be using metab
 <br></br>
 Another thing to note: Candy Shop seems to have issues with NFTs that have more than 3 creator addresses. Because one creator address is added by the candy machine, please DO NOT use more than 2 creator addresses under the royalties section when creating secondary trait NFTs in hashlips.
 
+## Roadmap
+Please check out the issues tab in GitHub to read more about our plans for how this tool will evolve.
+
 ## Installation
 <ul>
   <li> Step 1: git clone git@github.com:thebobfather2/buildtorarity.git </li>
