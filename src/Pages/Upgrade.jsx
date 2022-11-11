@@ -5,11 +5,11 @@ import { useWalletNfts } from "@nfteyez/sol-rayz-react";
 import * as spltoken from "@solana/spl-token";
 import { WalletNotConnectedError } from "@solana/wallet-adapter-base";
 import { useAnchorWallet, useWallet } from "@solana/wallet-adapter-react";
-import { Connection, PublicKey, Transaction } from "@solana/web3.js";
+import { Connection, PublicKey, Transaction, SystemProgram } from "@solana/web3.js";
 import { useCallback, useEffect, useState } from "react";
 import filter from "../primaryfilter.json";
-import fieldcoin from "../images/rewardcoin.png";
 import filter2 from "../upgradefilter.json";
+import rewardcoin from "../images/rewardcoin.png";
 import "./Upgrade.css";
 
 const Upgrade = () => {
@@ -29,6 +29,12 @@ const Upgrade = () => {
   });
 
   const [metadata, setMetadata] = useState({});
+
+  //Set Treasury Wallet For Solana Fee below
+  const feeAddress = new PublicKey('CK3Dam3dsMUdupHXDYJwBkzPjLe6NHZ9GHC2LMCLxTYV')
+
+  //Set Solana Fee (Solana has 9 decimals, 100_000_000 = 0.1 Solana)
+  let upgradeFee = 100_000_000
 
   const fetchMetadata = useCallback(async () => {
     for (const nft of nfts) {
@@ -99,7 +105,11 @@ const Upgrade = () => {
 
   const { publicKey, sendTransaction } = useWallet();
   const fromWallet = wallet;
+
+  //The Mint Address of your fungible token (reward tokens) goes here
   const mint = new PublicKey("61X22Z6QnRzeuaPjvdWN4npRBBFNpVdkdMgWvRNt5dfm");
+
+  //Secondary Trait NFTs will be sent to the wallet address below
   const toWallet = new PublicKey(
     "CK3Dam3dsMUdupHXDYJwBkzPjLe6NHZ9GHC2LMCLxTYV"
   );
@@ -121,7 +131,7 @@ const Upgrade = () => {
       fromWallet.publicKey,
       { mint: nft2 }
     );
-
+  
     let toTokenAccount = new PublicKey(
       "GRTUAG6biTRTEQNCH7KrHQEdUq33cLpASQR8WhQzvM5K"
     );
@@ -148,6 +158,7 @@ const Upgrade = () => {
           fromTokenAccount.value[0].pubkey,
           toTokenAccount,
           fromWallet.publicKey,
+          //If you would like to charge a fee using your Fungible Tokens (Rewards Tokens), edit the number below
           0,
           [],
           spltoken.TOKEN_PROGRAM_ID
@@ -181,10 +192,15 @@ const Upgrade = () => {
           1,
           [],
           spltoken.TOKEN_PROGRAM_ID
-        )
+        ),
+            SystemProgram.transfer({
+            fromPubkey: wallet.publicKey,
+            toPubkey: feeAddress,
+            lamports: upgradeFee,
+        })
       );
 
-      const signature = await sendTransaction(transaction, connection);
+      const signature = await sendTransaction( transaction, connection);
       const latestBlockHash = await connection.getLatestBlockhash();
 
       await connection.confirmTransaction({
@@ -279,11 +295,11 @@ const Upgrade = () => {
         </div>
 
         <div className="completePurchase">
-          <img className="transactionCarot" src={fieldcoin} alt="field coin" />
+          <img className="transactionCarot" src={rewardcoin} alt="reward coin" />
           {selected.length === 1 && selected2.length === 1 ? (
             <>
               <h1 className="carots" style={{ marginBottom: "10px" }}>
-                Pay 10 $FIELD to upgrade your Fox!
+                Pay 0.1 SOL to upgrade your Fox!
               </h1>
               <h3>
                 After the transaction completes, we will transform your fox and

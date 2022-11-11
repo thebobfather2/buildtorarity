@@ -97,8 +97,31 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Update the upgradefilter.json file to add your new hashlist so that the Upgrade Tool displays traits for holders to submit for upgrades. I like to use the Magic Eden Hashlist Tool here: https://magiceden.io/mintlist-tool</li>
 </ul>
 
-## Edit Fees Charged For Upgrades
+## Upgrade Tool Hashlists
+We must add the primary NFT hashlist as well as the hashes for any upgrades you would like to be displayed in the Upgrade Tool.
+<ul>
+  <li>Replace the primaryfilter.json hashlist with your primary NFT hashlist. As mentioned earlier, this can be easily found with the Magic Eden Hashlist Tool: https://magiceden.io/mintlist-tool</li>
+  <li>You will also need to replace the upgradefilter.json</li>
+</ul>
 
+## Upgrade Tool Receiving Wallet
+<ul>
+  <li>Change the PublicKey wallet on line 114 to the wallet that you would like to receive primary NFTs and secondary trait NFTs when holders submit them for upgrades.</li>
+  <li>NOTE: When holders use the tool, you will receive both the primary NFT and the secondary trait NFT. You will then need to create the new version and send the primary NFT back to the holder. Transaction history in Phantom wallet is a great way to see where the came from to send them back, but also if you check the Issues tab in GitHub you will see our plans to improve upon this workflow in future versions.</li>
+</ul>
+
+## Edit Fees Charged For Upgrades
+<ul>
+  <li>Change the feeAddress on line 34 in Upgrade.jsx to your Treasury Wallet address - this is where the revenue will be sent when a holder upgrades their trait.</li>
+  <li>Set the Solana Fee next to upgradeFee on line 37 of Upgrade.jsx (NOTE: Solana has 9 decimals, so 100_000_000 = 0.1 Solana). If you would prefer to charge using your fungible tokens instead, set this to 0 and proceed to the next step.</li>
+  <li>OPTIONAL: Change the PublicKey address on line 110 in Upgrade.jsx to the mint address of your fungible tokens (reward tokens) - if you would like to charge a fee using your fungible tokens instead of or in addition to the Solana fee, this is how the tool knows which tokens to accept</li>
+  <li>OPTIONAL: Change the number on line 162 in Upgrade.jsx to the amount you'd like to charge using your fungible tokens if you choose to do so.</li>
+</ul>
+
+## Upgrade Tool Branding Customization
+<ul>
+  <li>Replace the rewardcoin.png image with an image of your fungible tokens (reward coins)</li>
+</ul>
 ## Customize Fonts
 <ul>
   <li>The easiest way to customize fonts is to use fonts from https://fonts.google.com/</li>
@@ -153,3 +176,6 @@ Website: https://www.bobbyrabbits.com/
 If this turns out to be a way bigger task than you're interested in doing on your own, you can simply hire us to do the work for you! Check out https://www.bobbyrabbits.com/#/Services for estimated pricing. You can click the link at the top to open a ticket in our Discord, or just reach out via the contact info provided above. 
 <br></br>
 WAGMI 
+
+## TOO ADD
+Line 300 text for sol fee to upgrade
