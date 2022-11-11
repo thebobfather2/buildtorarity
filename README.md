@@ -1,6 +1,6 @@
 # Edd Fox Build Into Rarity Ecosystem
 
-![localhost_3000_ (7)](https://user-images.githubusercontent.com/107475188/201282610-51603f3f-6ef5-4ad4-9bed-cfe8d088ba8f.png)
+![build2rarity-qafxkhqsl-thebobfather2 vercel app_ (1)](https://user-images.githubusercontent.com/107475188/201286647-5986404c-4665-4d04-aeb0-934cb47b8a9c.png)
 
 ## About Build Into Rarity
 <h3>Powered by Bobby Rabbits</h3>
