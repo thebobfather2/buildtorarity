@@ -12,7 +12,7 @@ import fieldcoin from "../images/rewardcoin.png";
 import filter2 from "../upgradefilter.json";
 import "./Upgrade.css";
 
-const UpgradeFox = () => {
+const Upgrade = () => {
   let walletAddress = "";
   const wallet = useAnchorWallet();
   walletAddress = wallet?.publicKey.toString();
@@ -359,4 +359,4 @@ const UpgradeFox = () => {
   );
 };
 
-export default UpgradeFox;
+export default Upgrade;
