@@ -1,3 +1,5 @@
+![localhost_3000_ (7)](https://user-images.githubusercontent.com/107475188/201282610-51603f3f-6ef5-4ad4-9bed-cfe8d088ba8f.png)
+
 # Edd Fox Build Into Rarity Ecosystem
 
 ## About Build Into Rarity
