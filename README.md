@@ -184,5 +184,5 @@ If this turns out to be a way bigger task than you're interested in doing on you
 <br></br>
 WAGMI 
 
-## TOO ADD
-Line 300 text for sol fee to upgrade
+## Notes to myself to add (disregard if you're not me lol)
+Line 300 - custom text for upgrade instructions
