@@ -104,7 +104,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 We must add the primary NFT hashlist as well as the hashes for any upgrades you would like to be displayed in the Upgrade Tool.
 <ul>
   <li>Replace the primaryfilter.json hashlist with your primary NFT hashlist. As mentioned earlier, this can be easily found with the Magic Eden Hashlist Tool: https://magiceden.io/mintlist-tool</li>
-  <li>You will also need to replace the upgradefilter.json</li>
+  <li>You will also need to replace the upgradefilter.json hashlist with the hashlists of your secondary trait NFTs. You will need to add new hashes each   time you add traits to your Trait Marketplace.</li>
 </ul>
 
 ## Upgrade Tool Receiving Wallet
