@@ -110,7 +110,9 @@ We must add the primary NFT hashlist as well as the hashes for any upgrades you 
   <li>Change the PublicKey wallet on line 114 to the wallet that you would like to receive primary NFTs and secondary trait NFTs when holders submit them for upgrades.</li>
   <li>NOTE: When holders use the tool, you will receive both the primary NFT and the secondary trait NFT. You will then need to create the new version and send the primary NFT back to the holder. Transaction history in Phantom wallet is a great way to see where the came from to send them back, but also if you check the Issues tab in GitHub you will see our plans to improve upon this workflow in future versions.</li>
 </ul>
-![IMG-7408](https://user-images.githubusercontent.com/107475188/201281822-7ad62cb3-5bc4-4e29-89ea-9bc6b75ed0bf.jpg)
+
+![IMG-7408](https://user-images.githubusercontent.com/107475188/201282015-21685f87-edb0-4db5-a70b-ebb49bed968c.jpg)
+
 
 ## Edit Fees Charged For Upgrades
 <ul>
