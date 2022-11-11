@@ -124,7 +124,7 @@ We must add the primary NFT hashlist as well as the hashes for any upgrades you 
   <li>OPTIONAL: Change the number on line 162 in Upgrade.jsx to the amount you'd like to charge using your fungible tokens if you choose to do so.</li>
 </ul>
 
-## Upgrade Tool Branding Customization
+## Upgrade Tool - Branding Customization
 <ul>
   <li>Replace the rewardcoin.png image with an image of your fungible tokens (reward coins)</li>
 </ul>
