@@ -1,4 +1,4 @@
-# Edd Fox Build Into Rarity Ecosystem
+# Custom Build Into Rarity Ecosystem
 
 ![build2rarity-qafxkhqsl-thebobfather2 vercel app_ (1)](https://user-images.githubusercontent.com/107475188/201286647-5986404c-4665-4d04-aeb0-934cb47b8a9c.png)
 
