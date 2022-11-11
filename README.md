@@ -3,7 +3,7 @@
 ![build2rarity-qafxkhqsl-thebobfather2 vercel app_ (1)](https://user-images.githubusercontent.com/107475188/201286647-5986404c-4665-4d04-aeb0-934cb47b8a9c.png)
 
 ## About Build Into Rarity
-<h3>Powered by Bobby Rabbits</h3>
+<h3>Powered by Bobby Rabbits, Pioneered by Edd Fox</h3>
 Build Into Rarity is a concept pioneered by Edd Fox using techniques first deployed by Corn Pop of Bobby Rabbits. The Bobfather apprenticed as a developer under Corn Pop during the development of https://www.bobbyrabbits.com/ and applied the technology used early on in Bobby Rabbits to create a methodology that can be branded, customized, and expanded upon to assist projects in need of ancillary revenue. We would also like to thank and give credit to Reuben G - a holder of Bobby Rabbits who took on the challenge of developing the Edd Fox character and masterminding the concept of "WereFox", which then led to FoxMart and the birth of this ancillary revenue stream. The term "Build Into Rarity" was coined by Reuben himself, and for that, we owe him our gratitude.
 
 <h3>The Concept:</h3>
