@@ -5,9 +5,8 @@
 Build Into Rarity is a concept pioneered by Edd Fox using techniques first deployed by Corn Pop of Bobby Rabbits. The Bobfather apprenticed as a developer under Corn Pop during the development of https://www.bobbyrabbits.com/ and applied the technology used early on in Bobby Rabbits to create a methodology that can be branded, customized, and expanded upon to assist projects in need of ancillary revenue. We would also like to thank and give credit to Reuben G - a holder of Bobby Rabbits who took on the challenge of developing the Edd Fox character and masterminding the concept of "WereFox", which then led to FoxMart and the birth of this ancillary revenue stream. The term "Build Into Rarity" was coined by Reuben himself, and for that, we owe him our gratitude.
 <br></br>
 
-<h3>The General Concept:</h3>
+<h3>The Concept:</h3>
 The general concept of Build Into Rarity consists of a number of parts working together as a complete process and ecosystem:
-<br></br>
 <ul>
   <li>Creating a fungible token to be earned through staking</li>
   <li>Configuring a stake pool to reward holders proportional to their commitments and value to the project</li>
