@@ -128,6 +128,7 @@ We must add the primary NFT hashlist as well as the hashes for any upgrades you 
 <ul>
   <li>Replace the rewardcoin.png image with an image of your fungible tokens (reward coins)</li>
 </ul>
+
 ## Customize Fonts
 <ul>
   <li>The easiest way to customize fonts is to use fonts from https://fonts.google.com/</li>
