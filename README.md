@@ -1,6 +1,6 @@
 ![build2rarity-qafxkhqsl-thebobfather2 vercel app_ (1)](https://user-images.githubusercontent.com/107475188/201286647-5986404c-4665-4d04-aeb0-934cb47b8a9c.png)
 
-# Build-Into-Rarity Solana Ecosystem
+# Build-Into-Rarity Solana Ecosystem (v1.0)
 
 ## About Build-Into-Rarity
 <h3>Powered by Bobby Rabbits, Pioneered by Edd Fox</h3>
@@ -16,7 +16,7 @@ The general concept of Build Into Rarity consists of a number of parts working t
 </ul>
 
 ## Roadmap
-Please check out the issues tab in GitHub to read more about our plans for how this tool will evolve.
+Additional phases of development will automate core processes such as art regeneration and the upgrade process. Our ultimate vision is to create a "closet" where holders can swap traits at will, effectively picking out what they want to display on their NFT that day from owned traits in their "closet" - but for this, we need to win some funding from the hackathon! Please check out the issues tab in GitHub to read more about our plans for how this tool will evolve.
 
 ## Example Project:
 https://www.bobbyrabbits.com/#/EddFox
