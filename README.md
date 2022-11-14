@@ -1,8 +1,6 @@
-# Build Your Own Solana Ecosystem
-
-<h2>with upgradeable art rewards</h2>
-
 ![build2rarity-qafxkhqsl-thebobfather2 vercel app_ (1)](https://user-images.githubusercontent.com/107475188/201286647-5986404c-4665-4d04-aeb0-934cb47b8a9c.png)
+
+# Build-Into-Rarity Solana Ecosystem
 
 ## About Build Into Rarity
 <h3>Powered by Bobby Rabbits, Pioneered by Edd Fox</h3>
