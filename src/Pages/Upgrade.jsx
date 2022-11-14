@@ -106,7 +106,7 @@ const Upgrade = () => {
   const { publicKey, sendTransaction } = useWallet();
   const fromWallet = wallet;
 
-  //The Mint Address of your fungible token (reward tokens) goes here
+  //optional: SPL Token Address of your fungible token (reward tokens) goes here
   const mint = new PublicKey("61X22Z6QnRzeuaPjvdWN4npRBBFNpVdkdMgWvRNt5dfm");
 
   //Secondary Trait NFTs will be sent to the wallet address below
@@ -131,7 +131,7 @@ const Upgrade = () => {
       fromWallet.publicKey,
       { mint: nft2 }
     );
-  
+    //optional: provide the actual token account holding your fungible tokens here - when people spend them they will deposit here
     let toTokenAccount = new PublicKey(
       "GRTUAG6biTRTEQNCH7KrHQEdUq33cLpASQR8WhQzvM5K"
     );
@@ -193,6 +193,7 @@ const Upgrade = () => {
           [],
           spltoken.TOKEN_PROGRAM_ID
         ),
+        //Solana Fee Code Below
             SystemProgram.transfer({
             fromPubkey: wallet.publicKey,
             toPubkey: feeAddress,

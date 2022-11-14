@@ -120,7 +120,8 @@ We must add the primary NFT hashlist as well as the hashes for any upgrades you 
 <ul>
   <li>Change the feeAddress on line 34 in Upgrade.jsx to your Treasury Wallet address - this is where the revenue will be sent when a holder upgrades their trait.</li>
   <li>Set the Solana Fee next to upgradeFee on line 37 of Upgrade.jsx (NOTE: Solana has 9 decimals, so 100_000_000 = 0.1 Solana). If you would prefer to charge using your fungible tokens instead, set this to 0 and proceed to the next step.</li>
-  <li>OPTIONAL: Change the PublicKey address on line 110 in Upgrade.jsx to the mint address of your fungible tokens (reward tokens) - if you would like to charge a fee using your fungible tokens instead of or in addition to the Solana fee, this is how the tool knows which tokens to accept</li>
+  <li>OPTIONAL: Change the PublicKey address on line 110 in Upgrade.jsx to the SPL token address of your fungible tokens (reward tokens) - if you would like to charge a fee using your fungible tokens instead of or in addition to the Solana fee, this is how the tool knows which tokens to accept</li>
+  <li>OPTIONAL: Change the address in line 136 of Upgrade.jsx to the token address that will receive fungible tokens if you choose to charge the fee using fungible tokens. This is perhaps the most confusing one - it is the TOKEN account, not the wallet address receiving the tokens. Reach out to us at Bobby Rabbits if you need help here.</li>
   <li>OPTIONAL: Change the number on line 162 in Upgrade.jsx to the amount you'd like to charge using your fungible tokens if you choose to do so.</li>
 </ul>
 
