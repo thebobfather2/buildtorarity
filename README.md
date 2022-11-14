@@ -18,6 +18,9 @@ The general concept of Build Into Rarity consists of a number of parts working t
 ## Roadmap
 Additional phases of development will automate core processes such as art regeneration and the upgrade process. Our ultimate vision is to create a "closet" where holders can swap traits at will, effectively picking out what they want to display on their NFT that day from owned traits in their "closet" - but for this, we need to win some funding from the hackathon! Please check out the issues tab in GitHub to read more about our plans for how this tool will evolve.
 
+## 60 Second Overview on YouTube
+https://www.youtube.com/watch?v=19pC5pyiHa0&t=1s
+
 ## Example Project:
 https://www.bobbyrabbits.com/#/EddFox
 
