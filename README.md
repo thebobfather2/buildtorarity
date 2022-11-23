@@ -83,15 +83,18 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 
 ## Set Up Traits Marketplace
 <ul>
-  <li>Go to https://candy.liqnft.com/ and set up your store.</li>
+  <li>Go to https://candy.liqnft.com/shop to set up your store.</li>
+  <li>Change Network to Mainnet Beta and click Create Shop.</li>
+  <li>Give your shop a name and paste the mint address of your fungible token where it says Shop Currency.</li>
+  <li>The code it gives you will be used in your .env file, but can always be accessed from the Home menu on the Candy Shop website.</li>
 </ul>
 
 ## Set Up .env File
 <ul>
   <li>Remove ".example" from ".env.example".</li>
-  <li>Using the info provided by Candy Shop, replace the REACT_APP_CANDY_SHOP_CREATOR_ADDRESS in line 9 of .env</li>
-  <li>Replace the REACT_APP_CANDY_SHOP_TREASURY_MINT in line 10 of .env</li>
-  <li>Replace the REACT_APP_CANDY_SHOP_PROGRAM_ID in line 11 of .env</li>
+  <li>Using the info provided by Candy Shop, replace the REACT_APP_CANDY_SHOP_CREATOR_ADDRESS in line 11 of .env (this should be the wallet address you used to set up your trait marketplace).</li>
+  <li>Replace the REACT_APP_CANDY_SHOP_TREASURY_MINT in line 12 of .env (this should be the mint address of your fungible token).</li>
+  <li>Replace the REACT_APP_CANDY_SHOP_PROGRAM_ID in line 13 of .env (this might already be correct).</li>
   <li>IF YOU WOULD LIKE TO TEST FIRST using devnet - please replace the RPCs with https://api.devnet.solana.com</li>
 </ul>
 
