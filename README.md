@@ -47,7 +47,9 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 ## Replace Images and Logos
 <ul>
   <li>The background image of the main page is located in line 8 of Home.css, or you can simply replace the "backgroundimg.png" file in src >> images.</li>
+  <li>Replace ProjectLogo.png in src >> images with your own logo.</li>
   <li>Replace MarketplaceButton.png, StakingButton.png, and UpgradeButton.png in the src >> images folder. You can also rename these images, just be sure to update the imports in Home.jsx</li>
+  <li>Also make sure to update the title of your homepage on line 13 of Home.jsx in src >> Pages</li>
 </ul>
 
 ## Replace Links
@@ -189,7 +191,8 @@ Notes:
 
 ## Optional: Batch Updating
 <ul>
-  <li>You can also track versions of primary NFTs through .json files and use the metaboss update all command to switch groups of NFTs back and forth. We will add more information on this later.</li>
+  <li>You can also track versions of primary NFTs through .json files and use the metaboss update all command to switch groups of NFTs back and forth.</li>
+  <li>To update a batch of NFTs that already have existing URIs you are tracking through .json files, use metaboss update uri-all --keypair keypair_file.json --json-file \name_of_list.json using the update authority keypair file and the name of the .json file with the list you want to upgrade to.</li>
 </ul>
 
 ## Developer Notes
