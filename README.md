@@ -102,8 +102,10 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 <ul>
   <li>Git clone hashlips to generate NFTs that represent your upgradable traits: https://github.com/HashLips/hashlips_art_engine</li>
   <li>Git clone Metaplex Sugar to launch and then self-mint your secondary trait NFTs: https://github.com/metaplex-foundation/sugar</li>
-  <li>Add your secondary trait NFTs to your Candy Shop by adding an identifier. You only need to add the mint address of one of the NFTs from the batch as an identifier, and it will allow all NFTs from that batch: https://candy.liqnft.com/shop/collections</li>
-  <li>List your traits for sale at various prices on yout Trait Marketplace</li>
+  <li>Add your secondary trait NFTs to your Candy Shop - sign into your candy shop at https://candy.liqnft.com/shop/, then click the Collections tab, then Create Collection.</li>
+  <li>Add a Name, Symbol, Categories, Description, and upload an image for your secondary traits.</li>
+  <li>Under ACTIONS on the right, click Edit, then scroll down and click Add NFT Identifier. You only need to add the mint address of one of the NFTs from the batch as an identifier, and it will allow all NFTs from that batch.</li>
+  <li>List your traits for sale at various prices on your Trait Marketplace.</li>
   <li>Update the upgradefilter.json file to add your new hashlist so that the Upgrade Tool displays traits for holders to submit for upgrades. I like to use the Magic Eden Hashlist Tool here: https://magiceden.io/mintlist-tool</li>
 </ul>
 
