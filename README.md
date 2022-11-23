@@ -173,9 +173,12 @@ We must add the primary NFT hashlist as well as the hashes for any upgrades you 
 <ul>
   <li>You will need to monitor the receiving wallet and/or your inboxes for when holders submit NFTs that need to be upgraded. We plan to automate this process in later phases, but for now the service requires some manual effort by founders.</li>
   <li>Look up the submitted primary NFT on https://solscan.io/ to obtain the mint address, edition number and view the existing traits</li>
-  <li>Remember to save the current metadata URI and add it to your spreadsheet (see Notes below) if you would like to revert back to this version later.
+  <img width="1291" alt="solscan1" src="https://user-images.githubusercontent.com/107475188/203470434-7dc063fe-df00-4bd5-982f-7c86eb8a4ab5.png">
+  <li>Remember to save the current metadata URI and add it to your spreadsheet (more on batch updating later) if you would like to revert back to this version later.
+    <img width="1308" alt="solscan2" src="https://user-images.githubusercontent.com/107475188/203470542-0abd2a36-6157-44a6-a37a-85d7aedeb05b.png">
   <li>Use Hashlips to generate the upgraded NFT (change the config file in hashlips to only create 1, and put only one of each trait in the folder to create desired NFT)</li>
   <li>Edit the .png and .json in the build folder to match the edition number on the existing NFT. Not only do the file names need to match, but there are 4 places inside the .json file where you will need to update this edition number.</li>
+  <img width="598" alt="metadata" src="https://user-images.githubusercontent.com/107475188/203470513-bba43afd-ed03-4981-b766-912ac3476cd1.png">
   <li>Use Bobby Rabbits NFT Minter to create new URI links: https://www.bobbyrabbits.com/#/nftminter - please note that you need to upload the image, then the .json, then click the button to GET IMAGE URI, then once that completes, GET METADATA URI, in that order. The metadata URI is what you will use in the command below to update the primary NFT. </li>
   <li>Install Metaboss: https://metaboss.rs/installation.html</li>
   <li>Create a .json file in a SEPARATE folder from your site. The name of the .json will be your wallet's public address .json, and the content of the .json will be your private key, similar to how keypair files are saved when you use Metaplex <b>(IMPORTANT NOTE: PROTECT THIS CAREFULLY AS IT CONTAINS YOUR PRIVATE KEY - DO NOT UPLOAD WITH YOUR SITE!!!</b></li>
