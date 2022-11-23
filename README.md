@@ -107,6 +107,8 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Add your secondary trait NFTs to your Candy Shop - sign into your candy shop at https://candy.liqnft.com/shop/, then click the Collections tab, then Create Collection.</li>
   <li>Add a Name, Symbol, Categories, Description, and upload an image for your secondary traits.</li>
   <li>Under ACTIONS on the right, click Edit, then scroll down and click Add NFT Identifier. You only need to add the mint address of one of the NFTs from the batch as an identifier, and it will allow all NFTs from that batch.</li>
+  <img width="1431" alt="nftidentifier" src="https://user-images.githubusercontent.com/107475188/203469783-a74999a8-8149-4609-bb1f-1204145be950.png">
+  <img width="1293" alt="identifier2" src="https://user-images.githubusercontent.com/107475188/203469790-0761e1b8-d7a3-4746-9945-1e12864f0608.png">
   <li>List your traits for sale at various prices on your Trait Marketplace.</li>
   <li>Update the upgradefilter.json file to add your new hashlist so that the Upgrade Tool displays traits for holders to submit for upgrades. I like to use the Magic Eden Hashlist Tool here: https://magiceden.io/mintlist-tool</li>
 </ul>
