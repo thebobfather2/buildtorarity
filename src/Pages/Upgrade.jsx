@@ -19,7 +19,7 @@ const Upgrade = () => {
   const filterList = JSON.parse(JSON.stringify(filter));
   const filterList2 = JSON.parse(JSON.stringify(filter2));
   const connection = new Connection(
-    "https://solana-api.projectserum.com",
+    "https://rpc.ankr.com/solana",
     "confirmed"
   );
 

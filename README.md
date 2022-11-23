@@ -109,17 +109,26 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Update the upgradefilter.json file to add your new hashlist so that the Upgrade Tool displays traits for holders to submit for upgrades. I like to use the Magic Eden Hashlist Tool here: https://magiceden.io/mintlist-tool</li>
 </ul>
 
-## Upgrade Tool Hashlists
+## Update Hashlists
 We must add the primary NFT hashlist as well as the hashes for any upgrades you would like to be displayed in the Upgrade Tool.
 <ul>
   <li>Replace the primaryfilter.json hashlist with your primary NFT hashlist. As mentioned earlier, this can be easily found with the Magic Eden Hashlist Tool: https://magiceden.io/mintlist-tool</li>
-  <li>You will also need to replace the upgradefilter.json hashlist with the hashlists of your secondary trait NFTs. You will need to add new hashes each   time you add traits to your Trait Marketplace.</li>
+  <li>You will also need to replace the upgradefilter.json hashlist with the hashlists of your secondary trait NFTs. You will need to add new hashes each time you add traits to your Trait Marketplace.</li>
+</ul>
+
+## Trait Marketplace - Branding Customization
+<ul>
+  <li>Go to TraitMarketplace.tsx in src >> Pages.</li>
+  <li>On line 42 change the Title of your marketplace.</li>
+  <li>On line 43 change the Description of your marketplace.</li>
+  <li>On line 56 edit the text for the section where holders can purchase secondary trait NFTs.</li>
+  <li>On line 72 edit the text where your holders will be able to sell their unused secondary trait NFTs.</li>
 </ul>
 
 ## Upgrade Tool Receiving Wallet
 <ul>
-  <li>Change the PublicKey wallet on line 114 to the wallet that you would like to receive primary NFTs and secondary trait NFTs when holders submit them for upgrades.</li>
-  <li>NOTE: When holders use the tool, you will receive both the primary NFT and the secondary trait NFT. You will then need to create the new version and send the primary NFT back to the holder. Transaction history in Phantom wallet is a great way to see where the came from to send them back, but also if you check the Issues tab in GitHub you will see our plans to improve upon this workflow in future versions.</li>
+  <li>Change the PublicKey wallet on line 114 of Upgrade.jsx to the wallet address that you would like to receive primary NFTs and secondary trait NFTs when holders submit them for upgrades.</li>
+  <li>NOTE: When holders use the upgrade tool, you will receive both the primary NFT and the secondary trait NFT. You will then need to create the new version of the primary NFT, update the metadata to display the new one, and send it back to the holder. Transaction history in Phantom wallet is a great way to see where the came from to send them back, but also if you check the Issues tab in GitHub you will see our plans to improve upon this workflow in future versions. Instructions on how to upgrade the NFTs are further down in the README.</li>
 </ul>
 
 ![IMG-7408](https://user-images.githubusercontent.com/107475188/201282015-21685f87-edb0-4db5-a70b-ebb49bed968c.jpg)
@@ -136,7 +145,15 @@ We must add the primary NFT hashlist as well as the hashes for any upgrades you 
 
 ## Upgrade Tool - Branding Customization
 <ul>
-  <li>Replace the rewardcoin.png image with an image of your fungible tokens (reward coins)</li>
+  <li>Go to Upgrade.jsx in src >> Pages.</li>
+  <li>Replace the rewardcoin.png image with an image of your fungible tokens (reward coins).</li>
+  <li>On line 229, edit the Title of this page.</li>
+  <li>On line 236, edit the text asking your holders which primary NFT they want to choose to upgrade.</li>
+  <li>On line 268, edit the text asking your holders which secondary trait NFT they want to choose for their upgrade.</li>
+  <li>On line 303 edit the text describing the fee for updating their NFT.</li>
+  <li>On line 306, edit the description for what they can expect when they submit the upgrade.</li>
+  <li>On line 318, edit the button text to submit the upgrade.</li>
+  <li>On line 361, edit the text that will be displayed when the transaction confirms.</li>
 </ul>
 
 ## Customize Fonts
