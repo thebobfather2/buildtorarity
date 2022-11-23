@@ -201,6 +201,7 @@ Notes:
 </ul>
 <img width="637" alt="werefoxlist" src="https://user-images.githubusercontent.com/107475188/203470912-1610b086-4801-4623-b239-b324ba25f429.png">
 <img width="1372" alt="spreadsheet" src="https://user-images.githubusercontent.com/107475188/203470916-ac7b8fd9-75c1-46e4-8abd-357fc66ff096.png">
+
 ## Developer Notes
 Common errors that holders run into and how to troubleshoot them:
 <ul>
