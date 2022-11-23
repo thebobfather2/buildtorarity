@@ -31,7 +31,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 
 ## Installation
 <ul>
-  <li> Step 1: git clone git@github.com:thebobfather2/buildtorarity.git </li>
+  <li> Step 1: fork this repository and then git clone into the folder you will use. </li>
   <li> Step 2: cd buildtorarity </li>
   <li> Step 3: yarn install </li>
 </ul>
