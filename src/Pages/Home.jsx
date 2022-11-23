@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import ProjectLogo from "../images/ProjectLogo.png";
-import Potion from "../images/potion.png";
-import upgrade from "../images/upgradeButton.png";
-import Stakefox from "../images/stakefox.png";
+import marketplaceButton from "../images/MarketplaceButton.png";
+import upgradeButton from "../images/UpgradeButton.png";
+import stakingButton from "../images/StakingButton.png";
 
 import "./Home.css";
 
@@ -27,9 +27,9 @@ const Home = () => {
 {/* Update with URL from Cardinal Labs Staking below */} 
         <a href="https://staking.bobbyrabbits.com/eddfox">
           <img
-            className="Stakefox"
-            src={Stakefox}
-            alt="Stakefox"
+            className="buttonImg"
+            src={stakingButton}
+            alt="Staking Button"
             style={{ marginTop: "0px"}}
           ></img>
           <h3 style={{ marginBottom: "40px", color: "white", textShadow: "2px 2px #000000"}}>
@@ -39,9 +39,9 @@ const Home = () => {
 
         <Link to="/TraitMarketplace">
           <img
-            className="Stakefox"
-            src={Potion}
-            alt="Potion"
+            className="buttonImg"
+            src={marketplaceButton}
+            alt="Marketplace Button"
             style={{ marginTop: "0px"}}
           ></img>
           <h3 style={{ marginBottom: "40px", color: "white", textShadow: "2px 2px #000000"}}>FoxMart</h3>
@@ -49,9 +49,9 @@ const Home = () => {
 
         <Link to="/Upgrade">
           <img
-            className="Stakefox"
-            src={upgrade}
-            alt="Upgrade"
+            className="buttonImg"
+            src={upgradeButton}
+            alt="Upgrade Button"
             style={{ marginTop: "0px"}}
           ></img>
          <h3 style={{ marginBottom: "40px", color: "white", textShadow: "2px 2px #000000"}}>Upgrade Your Fox</h3>

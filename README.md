@@ -47,6 +47,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 ## Replace Images and Logos
 <ul>
   <li>The background image of the main page is located in line 8 of Home.css, or you can simply replace the "backgroundimg.png" file in src >> images.</li>
+  <li>Replace MarketplaceButton.png, StakingButton.png, and UpgradeButton.png in the src >> images folder</li>
 </ul>
 
 ## Create Your Rewards Tokens
