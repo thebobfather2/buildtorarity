@@ -60,7 +60,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
 <h3>Homepage Button Links</h3>
 <ul>
   <li>Replace link with your own Magic Eden link for the buy primary NFT button on line 18 of Home.jsx</li>
-  <li>If you havent already done so from earlier, replace staking button link with the URL provided by Cardinal Labs (it will be https://stake.cardinal.so/YOURPOOLID) on line 28 of Home.jsx</li>
+  <li>There will be one more link to fix after you set up staking - you will replace the staking button link with the URL provided by Cardinal Labs (it will be https://stake.cardinal.so/YOURPOOLID) on line 28 of Home.jsx</li>
 </ul>
 
 ## Create Your Rewards Tokens
@@ -77,7 +77,7 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Click "Create your pool +"</li>
   <li>Use the information for your primary NFT's collection or creator address to tell it which NFTs can be staked</li>
   <li>Under REWARD DISTRIBUTION choose Transfer and provide your fungible token's mint address, and fund the stake pool with plenty of tokens for your holders to redeem</li>
-  <li>Replace the URL on line 34 in Home.jsx with the URL provided by Cardinal Labs (it will be https://stake.cardinal.so/YOURPOOLID)</li>
+  <li>Replace the URL on line 38 in Home.jsx with the URL provided by Cardinal Labs (it will be https://stake.cardinal.so/YOURPOOLID)</li>
   <li>Change the button description for staking on line 42 in Home.jsx</li>
 </ul>
 
