@@ -167,6 +167,7 @@ We must add the primary NFT hashlist as well as the hashes for any upgrades you 
 
 ## Upgrading Traits
 <ul>
+  <li>You will need to monitor the receiving wallet and/or your inboxes for when holders submit NFTs that need to be upgraded. We plan to automate this process in later phases, but for now the service requires some manual effort by founders.</li>
   <li>Look up the submitted primary NFT on https://solscan.io/ to obtain the mint address, edition number and view the existing traits</li>
   <li>Remember to save the current metadata URI and add it to your spreadsheet (see Notes below) if you would like to revert back to this version later.
   <li>Use Hashlips to generate the upgraded NFT (change the config file in hashlips to only create 1, and put only one of each trait in the folder to create desired NFT)</li>
@@ -184,6 +185,11 @@ Commands:
 Notes:
 <ul>
   <li>I've found it helpful to create a spreadsheet to track URIs in case a holder wants their original NFT art, or for other issues that would require easy access to alternate NFT art such as the WereFox capabilities within Edd Fox.</li>
+</ul>
+
+## Optional: Batch Updating
+<ul>
+  <li>You can also track versions of primary NFTs through .json files and use the metaboss update all command to switch groups of NFTs back and forth. We will add more information on this later.</li>
 </ul>
 
 ## Developer Notes
@@ -210,6 +216,3 @@ Website: https://www.bobbyrabbits.com/
 If this turns out to be a way bigger task than you're interested in doing on your own, you can simply hire us to do the work for you! Check out https://www.bobbyrabbits.com/#/Services for estimated pricing. You can click the link at the top to open a ticket in our Discord, or just reach out via the contact info provided above. 
 <br></br>
 WAGMI 
-
-## Notes to myself to add (disregard if you're not me lol)
-Line 300 - custom text for upgrade instructions
