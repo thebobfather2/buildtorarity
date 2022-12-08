@@ -200,6 +200,7 @@ Common errors that holders run into and how to troubleshoot them:
 <ul>
   <li>By far the most common error is that holders attempt to submit NFTs to be upgraded using the Upgrade Tool, but forget to unstake their primary NFT. If a holder is getting an error using the Upgrade Tool, the first question you should always ask is "did you unstake?"</li>
   <li>The wallet that receives NFTs through the Upgrade Tool must be constantly cleaned to remove empty token accounts once upgraded NFTs have been sent back to holders, otherwise holders may get errors when trying to send NFTs for upgrades. You can use our wallet cleaner tool here: https://www.bobbyrabbits.com/#/Cleaner</li>
+  <li>The node being use is on line 22 of Upgrade.jsx - we have had many issues with free Solana RPC endpoints going down lately or becoming no longer free - you may need to purchase a Solana node endpoint and replace it here, which again is on line 22 of Upgrade.jsx.</li>
 </ul>
 Other notes:
 <br></br>
