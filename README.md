@@ -107,6 +107,8 @@ Another thing to note: Candy Shop seems to have issues with NFTs that have more 
   <li>Add your secondary trait NFTs to your Candy Shop - sign into your candy shop at https://candy.liqnft.com/shop/, then click the Collections tab, then Create Collection.</li>
   <li>Add a Name, Symbol, Categories, Description, and upload an image for your secondary traits.</li>
   <li>Under ACTIONS on the right, click Edit, then scroll down and click Add NFT Identifier. You only need to add the mint address of one of the NFTs from the batch as an identifier, and it will allow all NFTs from that batch.</li>
+  <img width="1431" alt="nftidentifier" src="https://user-images.githubusercontent.com/107475188/203469783-a74999a8-8149-4609-bb1f-1204145be950.png">
+  <img width="1293" alt="identifier2" src="https://user-images.githubusercontent.com/107475188/203469790-0761e1b8-d7a3-4746-9945-1e12864f0608.png">
   <li>List your traits for sale at various prices on your Trait Marketplace.</li>
   <li>Update the upgradefilter.json file to add your new hashlist so that the Upgrade Tool displays traits for holders to submit for upgrades. I like to use the Magic Eden Hashlist Tool here: https://magiceden.io/mintlist-tool</li>
 </ul>
@@ -171,9 +173,12 @@ We must add the primary NFT hashlist as well as the hashes for any upgrades you 
 <ul>
   <li>You will need to monitor the receiving wallet and/or your inboxes for when holders submit NFTs that need to be upgraded. We plan to automate this process in later phases, but for now the service requires some manual effort by founders.</li>
   <li>Look up the submitted primary NFT on https://solscan.io/ to obtain the mint address, edition number and view the existing traits</li>
-  <li>Remember to save the current metadata URI and add it to your spreadsheet (see Notes below) if you would like to revert back to this version later.
+  <img width="1291" alt="solscan1" src="https://user-images.githubusercontent.com/107475188/203470434-7dc063fe-df00-4bd5-982f-7c86eb8a4ab5.png">
+  <li>Remember to save the current metadata URI and add it to your spreadsheet (more on batch updating later) if you would like to revert back to this version later.
+    <img width="1308" alt="solscan2" src="https://user-images.githubusercontent.com/107475188/203470542-0abd2a36-6157-44a6-a37a-85d7aedeb05b.png">
   <li>Use Hashlips to generate the upgraded NFT (change the config file in hashlips to only create 1, and put only one of each trait in the folder to create desired NFT)</li>
   <li>Edit the .png and .json in the build folder to match the edition number on the existing NFT. Not only do the file names need to match, but there are 4 places inside the .json file where you will need to update this edition number.</li>
+  <img width="598" alt="metadata" src="https://user-images.githubusercontent.com/107475188/203470513-bba43afd-ed03-4981-b766-912ac3476cd1.png">
   <li>Use Bobby Rabbits NFT Minter to create new URI links: https://www.bobbyrabbits.com/#/nftminter - please note that you need to upload the image, then the .json, then click the button to GET IMAGE URI, then once that completes, GET METADATA URI, in that order. The metadata URI is what you will use in the command below to update the primary NFT. </li>
   <li>Install Metaboss: https://metaboss.rs/installation.html</li>
   <li>Create a .json file in a SEPARATE folder from your site. The name of the .json will be your wallet's public address .json, and the content of the .json will be your private key, similar to how keypair files are saved when you use Metaplex <b>(IMPORTANT NOTE: PROTECT THIS CAREFULLY AS IT CONTAINS YOUR PRIVATE KEY - DO NOT UPLOAD WITH YOUR SITE!!!</b></li>
@@ -194,6 +199,8 @@ Notes:
   <li>You can also track versions of primary NFTs through .json files and use the metaboss update all command to switch groups of NFTs back and forth.</li>
   <li>To update a batch of NFTs that already have existing URIs you are tracking through .json files, use metaboss update uri-all --keypair keypair_file.json --json-file \name_of_list.json using the update authority keypair file and the name of the .json file with the list you want to upgrade to.</li>
 </ul>
+<img width="637" alt="werefoxlist" src="https://user-images.githubusercontent.com/107475188/203470912-1610b086-4801-4623-b239-b324ba25f429.png">
+<img width="1372" alt="spreadsheet" src="https://user-images.githubusercontent.com/107475188/203470916-ac7b8fd9-75c1-46e4-8abd-357fc66ff096.png">
 
 ## Developer Notes
 Common errors that holders run into and how to troubleshoot them:
