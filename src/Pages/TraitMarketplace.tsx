@@ -15,7 +15,7 @@ import "./TraitMarketplace.css";
 
 const TraitMarketplace: React.FC = () => {
   const wallet = useAnchorWallet();
-  const RPC = "https://rpc.ankr.com/solana";
+  const RPC = "https://solana-mainnet.g.alchemy.com/v2/beFqPJgt0Clx_U2R-ObpU_df-UTGGOD4";
   const candyShopRef = useRef<CandyShop>(
     new CandyShop({
       candyShopCreatorAddress: CANDY_SHOP_CREATOR_ADDRESS,
